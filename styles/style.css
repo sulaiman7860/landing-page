@@ -1,0 +1,121 @@
+#first-nav {
+    background-image: linear-gradient(to right,#FFC371,#FF5F6D );
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#links > li > a:hover {
+  background-color: #FFC371;
+  border-radius: 30%;
+  transition: 0.5s;
+}
+
+#background-pic {
+    background-image: url(../assets/images/banner.png);
+    height: 60vh;
+    background-size: cover;
+}
+
+#background-text {
+    padding-top: 20vh;
+}
+
+#button-div > button {
+    background-color: transparent;
+    border-color: #fff;
+    border-radius: 50vh;
+    color: #fff;
+}
+#button-div > button:hover {
+    background-image: linear-gradient(to right,#FFC371,#FF5F6D );
+    border-color: #FF5F6D;
+    transition: 0.5s;
+}
+
+#first-section {
+    background-image: linear-gradient(to right,#FFC371,#FF5F6D );
+    height: 100%;
+    padding-top: 5vh;
+    
+}
+#first-section button {
+    border-radius: 50%;
+    background-color: transparent;
+    color: #fff;
+    border-color: #fff;
+}
+
+.text-container {
+    position: relative;
+}
+
+.text {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.text::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    height: 4px;
+    background-image: linear-gradient(to right,#FFC371,#FF5F6D );
+    transition: right 0.3s;
+}
+
+.text-container:hover .text::before {
+    right: 0;
+}
+
+#button-div2 > button {
+    background-color: transparent;
+    border-color: #000;
+    border-radius: 50vh;
+    color: #000;
+}
+
+#button-div2 > button:hover {
+    background-image: linear-gradient(to right,#FFC371,#FF5F6D );
+    border-color: #FF5F6D;
+    transition: 0.5s;
+}
+
+#third-section {
+    background-color: #e5e5e5;
+    padding:10vh;
+}
+#third-section button{
+    background-image: linear-gradient(to right,#FFC371,#FF5F6D );
+    border-radius: 50%;
+    border-color: #fff;
+    color: #fff;
+}
+
+.card1 {
+    position: relative;
+    display: inline-block;
+}
+.card1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card2 {
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+    border-radius: 50px 0 0 50px;
+    background-color: #fff; 
+    color: #000; 
+    font-size: 16px; 
+}
+
+footer {
+    margin-top: 20vh;
+}
+
